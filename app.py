@@ -51,11 +51,7 @@ async def assistant_response(request: PineconeRequest):
             "body": json.dumps(str(e))
         }
 
-@app.get("/")
-def read_root():
-    return {"message": "FastAPI is running on 52.237.203.110"}
+
 
 if __name__ == "__main__":
-    uvicorn.run("app:app", host="52.237.203.110", port=5900, reload=False)
-
-
+   uvicorn.run(app, host="0.0.0.0", port=5900)
