@@ -1,0 +1,6 @@
+api_keys:
+  
+  cohere_ai : "ib7xqAvIsOg14tK0lFIpsBDMXSQoEbjyEQYHWFUU"
+  open_ai_embeddings: "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"
+  pinecone: "pcsk_4ti4b3_8SmBxtpEp3NEHPj2j66xrg6v27mdAoEjdNU6beZpG6PTC1vtTCNvzZXqtJZNmEv"
+  deepseek: "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"
